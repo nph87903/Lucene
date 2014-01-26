@@ -29,22 +29,25 @@ import org.apache.lucene.util.Version;
 
 public class LuceneTest 
 {
-	public static String readFile(File f) throws IOException{
+	public static String readFile(File f) {
 		StringBuffer sb = new StringBuffer();
-		InputStreamReader isr = new InputStreamReader(new FileInputStream(f));
-		BufferedReader br = new BufferedReader(isr);
-		String line = "";
-		while ((line = br.readLine()) != null) {
-			sb.append(line).append("\n");
+		Scanner scan;
+		try {
+			scan = new Scanner(f);
+		
+		while(scan.hasNext()){
+			sb.append(scan.nextLine());
 		}
 		System.out.println(sb.toString());
-		
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return sb.toString();
 		
 	}
 	public static void main(String[] args)
 	{
-		
 		try
 		{
 			//	Specify the analyzer for tokenizing text.
@@ -55,7 +58,7 @@ public class LuceneTest
 			Directory index = new RAMDirectory();
 			
 			IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_46, analyzer);
-			File dir = new File("/Users/Page/Downloads/人民日报整理后");
+			File dir = new File("人民日报整理后");
 			IndexWriter w = new IndexWriter(index, config);
 			
 			for(File f:dir.listFiles()){
