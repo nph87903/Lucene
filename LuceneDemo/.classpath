@@ -2,11 +2,11 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="/Users/Page/Desktop/java/java_frameworks/lucene-4.6.0/analysis/common/lucene-analyzers-common-4.6.0.jar" sourcepath="/Users/Page/Desktop/java/java_frameworks/lucene-4.6.0/src"/>
-	<classpathentry kind="lib" path="/Users/Page/Desktop/java/java_frameworks/lucene-4.6.0/queryparser/lucene-queryparser-4.6.0.jar" sourcepath="/Users/Page/Desktop/java/java_frameworks/lucene-4.6.0/src"/>
-	<classpathentry kind="lib" path="/Users/Page/Desktop/java/java_frameworks/lucene-4.6.0/core/lucene-core-4.6.0.jar" sourcepath="/Users/Page/Desktop/java/java_frameworks/lucene-4.6.0/src"/>
-	<classpathentry kind="lib" path="/Users/Page/Desktop/java/java_frameworks/lucene-4.6.0/demo/lucene-demo-4.6.0.jar"/>
-	<classpathentry kind="lib" path="/Users/Page/Desktop/java/java_frameworks/lucene-4.6.0/analysis/smartcn/lucene-analyzers-smartcn-4.6.0.jar" sourcepath="/Users/Page/Desktop/java/java_frameworks/lucene-4.6.0/src"/>
-	<classpathentry kind="lib" path="/Users/Page/Desktop/java/java_frameworks/lucene-4.6.0/analysis/ik/IKAnalyzer2012_u6.jar" sourcepath="/Users/Page/Downloads/src/org"/>
+	<classpathentry kind="lib" path="C:/Users/penghai/Desktop/java/javaFrameworks/lucene-4.6.0/analysis/common/lucene-analyzers-common-4.6.0.jar" sourcepath="/Users/Page/Desktop/java/java_frameworks/lucene-4.6.0/src"/>
+	<classpathentry kind="lib" path="C:/Users/penghai/Desktop/java/javaFrameworks/lucene-4.6.0/queryparser/lucene-queryparser-4.6.0.jar" sourcepath="/Users/Page/Desktop/java/java_frameworks/lucene-4.6.0/src"/>
+	<classpathentry kind="lib" path="C:/Users/penghai/Desktop/java/javaFrameworks/lucene-4.6.0/core/lucene-core-4.6.0.jar" sourcepath="/Users/Page/Desktop/java/java_frameworks/lucene-4.6.0/src"/>
+	<classpathentry kind="lib" path="C:/Users/penghai/Desktop/java/javaFrameworks/lucene-4.6.0/demo/lucene-demo-4.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/penghai/Desktop/java/javaFrameworks/lucene-4.6.0/analysis/smartcn/lucene-analyzers-smartcn-4.6.0.jar" sourcepath="/Users/Page/Desktop/java/java_frameworks/lucene-4.6.0/src"/>
+	<classpathentry kind="lib" path="C:/Users/penghai/Desktop/java/javaFrameworks/ik/IKAnalyzer2012_u6.jar" sourcepath="/Users/Page/Downloads/src/org"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
